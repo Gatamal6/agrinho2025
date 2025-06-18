@@ -1,142 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
-
-:root {
-    --laranja-claro: #FF862A;
+body {
+  margin: 0;
+  font-family: 'Verdana', sans-serif;
+  background-color: #f4fce5;
+  color: #4b3d2a;
 }
 
-body {
-    font-size: 1rem;
-    font-family: 'Montserrat';
+.imagem-topo {
+  width: 50%;
+  max-height:400 px;
+  object-fit: cover;
+  border-bottom: 5px solid #a8dab5;
 }
 
 header {
-    background-color: #ffffff;
+  background-color: #a8dab5;
+  text-align: center;
+  padding: 1rem;
+  color: #4b3d2a;
 }
 
-
-section {
-    padding-bottom: 5rem;
+h1 {
+  font-size: 3rem;
+  margin: 0.5rem 0 0;
+  color: #3e6648;
 }
-
-
-.nav-link {
-    color: #CB6D43;
-    font-weight: 600;
-}
-
-.inicio-fundo {
-    /* aula 3 */
-    background-image: url('img/4965007.jpg');
-    /* Substitua pelo caminho da sua imagem */
-    background-size: cover;
-    background-position: right;
-    border-radius: 80px;
-    width: 100%;
-    height: 606px;
-    padding: 40px;
-    margin: 0 auto;
-}
-
-/* posicionamento para a imagem à direita */
-.img-inicio {
-    position: absolute;
-    right: 0;
-    top: 18rem;
-    width: 45rem;
-    height: auto;
-}
-
-
-.esquerda-conteudo {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-}
-
-
-.botao-inicio {
-    background-color: var(--laranja-claro);
-    border-radius: 30px;
-    border: none;
-    width: 14em;
-    /* Convertido para em aumenta o tamanho da fonte por tabela*/
-    height: 3em;
-    /* Convertido para em */
-    align-content: center;
-
-}
-
-.display-4 {
-    text-shadow: -5px 5px var(--laranja-claro);
-}
-
-
-#tropicalia {
-    position: relative;
-    padding-top: 5rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
-    background-size: 180px 180px;
-    /* Ajuste o tamanho conforme necessário */
-}
-
-#tropicalia .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    z-index: 1;
-    /* Garante que o conteúdo fica acima das imagens do background */
-}
-
 
 h2 {
-    font-family: 'Lemon', serif;
-    font-size: 2.5em;
-    font-style: normal;
-    color: var(--laranja-claro);
+  color: #5b4432;
 }
 
-#galeria {
-    background-color: #FAF4F4;
-
+main {
+  padding: 2rem;
 }
 
-.fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
-    background-size: 180px 180px;
+.tema, .acao {
+  background-color: #e5d4c0;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
 }
 
-#contato {
-    background-image: url('img/4965007.jpg');
-    background-size: cover;
-    padding: 4rem 0;
-    /* Espaçamento interno para a seção de contato */
-
+ul li {
+  margin-bottom: 0.5rem;
+  color: #3e4b32;
 }
 
-.formulario {
-    background-color: #ffffff;
-    padding: 2rem;
-    /* Espaçamento interno dentro do formulário */
-    border-radius: 10px;
-    /* Borda arredondada para o formulário */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* Sombra suave para destacar o formulário */
-    font-weight: bold;
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #c7e6c2;
+  color: #3e4b32;
 }
-
-.formulario button {
-    background-color: #CB6D43;
-    border: none;
-    font-weight: bold;
-}
-
-/* chama classe do bootstrap para modificar a cor */
-.form-control {
-    background-color: #F1EDEF;
+body {
+  font-family: 'Baloo 2', cursive;
 }
